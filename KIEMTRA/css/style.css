@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans-Regular";
+}
+html,
+body {
+    font-size: 16px;
+    background-color: white;
+}
+h1 {
+    font-family: "OpenSans-SemiBold";
+}
+h2,
+h3,
+h4,
+p {
+    font-family: "OpenSans-Bold";
+}
+/* Đây là menu */
+header {
+    margin-top: 1px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img {
+    width: 120px;
+    height: 55px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Đây là tbody */
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    min-height: 80px;
+    font-size: 48px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.col img {
+    max-width: 100%;
+    height: auto;
+}
+.col {
+    margin-left: 50px;
+}
+.col h3 {
+    color: burlywood;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.col p {
+    font-size: 16px;
+}
+.turn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.turn a {
+    color: black;
+    border: 1px solid gray;
+    float: left;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+/* Đây là footer */
+footer {
+    margin-top: 1px;
+    padding: 10px;
+    background-color: #8fbc8f;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 5rem;
+}
+.icon {
+    display: flex;
+}
+.icon div {
+    margin-right: 10px;
+}
+.footer p {
+    font-size: 12px;
+}
